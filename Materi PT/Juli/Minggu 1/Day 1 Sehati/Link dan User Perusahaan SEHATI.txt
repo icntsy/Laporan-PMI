@@ -1,0 +1,36 @@
+Link Sehatidev
+https://sehatidev.hubla.dephub.go.id/sso/authenticationendpoint/login.do?client_id=sehati-layanan&commonAuthCallerPath=%2Foauth2%2Fauthorize&forceAuth=false&passiveAuth=false&redirect_uri=https%3A%2F%2Fsehatidev.hubla.dephub.go.id%2Flayanan%2Fauth%2Foauth2client%3FdestPage%3Dmy-task%2Ftask-list&response_type=code&scope=openid&tenantDomain=carbon.super&sessionDataKey=bd4650b8-c86f-45d9-a692-7c4e2b4ec2e6&relyingParty=sehati-layanan&type=oidc&sp=sehati-layanan&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL
+
+Link Camunda dev
+https://sehatidev.hubla.dephub.go.id/camunda/app/cockpit/default/#/login
+
+demo/demo
+
+User Perusahaan Sehati
+
+NIB Antam
+8120003803316 : 123456
+
+NIB Pertamina 
+8120200840621 : admin1
+A.683/AL.399/EJPL
+
+
+
+Role Pemohon (pilih layanan)
+Role Kasi (pilih tugas pengevaluasi)
+Role Staff Pengevaluasi 
+Role Pemohon
+Role Kasi
+Role Kasubdit
+Role Direktur
+Role Kabag Hukum
+Role Sesditjen
+Role Dirjen
+Role Pemohon
+
+https://sehatidev.hubla.dephub.go.id/sso/layanan
+camunda database
+
+Data usaha, pengawas keiatan, lokasi kegiatan, dat kapal, dokumen persyaratan, dokumen teknis
+

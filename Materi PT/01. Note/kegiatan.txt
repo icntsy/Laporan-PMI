@@ -1,0 +1,122 @@
+------------------------------------------------------
+Bulan Juli
+
+Minggu 1
+4 Juli => testing apk SEHATI (izin SIUPPAK) & Record UI Apk SEHATI 
+5 Juli => Diagram BPMN dan UI Web ((Pemohon- Evaluator) Sertifikat Standar Perpanjangan Kegiatan Kerja Reklamasi)
+6 Juli => UI Web ((Pemohon - Evaluator - Evaluasi) Sertifikat Standar Perpanjangan Kegiatan Kerja Reklamasi)
+7 Juli => UI Web & Record UI ((Petugas Kasi - Petugas Kasubdit - Direktur Kepelabuhan - Bagian Hukum - Sesditjen - Dirjen) Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk) dan UI (Pemohon - Pengevaluasi) Izin Pembangunan Sementara TUKS 
+8 Juli => Revisi UI Web Sertifikat Standar Perpanjangan Kegiatan Kerja Reklamasi & Record Izin Pembangunan Sementara TUKS
+
+Minggu 2
+11 Juli => Spesifikasi form v.6 dan UI Web Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk (Role Pengevaluasi menambahkan kolom dan menghapus item jumlah)
+12 Juli => Revisi UI Web Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk, Record UI Web Izin Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk
+13 Juli => Dokumentasi Maintentance Idis (23 Mar - 22 Jun 2022) (Bulan Mei-Juni bagian ica), Menambahkan Kendala dan Restart Service Pada Dokumentasi Maintentance Idis (23 Mar - 22 Jun 2022)
+14 Juli => Membuat Desain Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk v.1
+15 Juli => Membuat DIagram BPMN Izin Kegiatan Kerja Keruk dan Penyiapan Lahan (Reklamasi), Merapihkan Diagram BPMN Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk
+
+Minggu 3
+18 Juli => Record UI Web Izin Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk v.2, Membuat Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan Juni
+19 Juli => Testing apk i-meditap, Cek Label Pada Attribute Provider Aplikasi i-Meditap (Rawat Inap Versi Inggris)
+20 Juli => Melanjutkan Cek Label Pada Attribute Provider Aplikasi i-Meditap (Rawat Inap Versi Inggris), Cek Label Pada Attribute Provider Aplikasi i-Meditap (Rawat Jalan Versi Inggris)
+21 Juli => Membuat UI Aplikasi SEHATI - Dir Kepelabuhanan - Pemanfaatan Garis Pantai TPK v.5, Membuat UI Aplikasi SEHATI - Dir Kepelabuhanan - Pemanfaatan Garis Pantai Non TPK v.4, Membuat UI Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk v.4
+22 Juli => Record UI Aplikasi SEHATI - Dir Kepelabuhanan - Pemanfaatan Garis Pantai TPK v.5, Record UI Aplikasi SEHATI - Dir Kepelabuhanan - Pemanfaatan Garis Pantai Non TPK v.4, Record UI Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk v.4, Membuat UI Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk v.5, Membuat UI Aplikasi SEHATI - Dir Kepelabuhanan - Pemanfaatan Garis Pantai Non TPK v.5, Membuat UI Aplikasi SEHATI - Dir Kepelabuhanan - Pemanfaatan Garis Pantai TPK v.6
+
+Minggu 4
+25 Juli => Belajar Mandiri 
+26 Juli => Membuat Laporan Bulanan Kegiatan Support Dan Pemeliharaan Sistem Bulan Juni (Bab 4 dan 5)
+27 Juli => Belajar Mandiri
+28 Juli => Belajar Mandiri
+29 Juli => Belajar Mandiri
+
+------------------------------------------------------
+Bulan Agustus
+
+Minggu 5
+01 Agustus => UI Aplikasi_SEHATI_-_Dir_KPLP_-_Layanan_Izin Perpanjangan_Jangka_Waktu_Pemanfaatan_membangun_bangunan_instalasi
+
+02 Agustus => Testing Aplikasi SEHATI (Sertifikat Standar Kegiatan Salvage dan Pekerjaan Bawah Air)
+
+03 Agustus => Record UI Aplikasi SEHATI Dir KPLP Layanan Izin Membangun Kabel Saluran UdaraSUTT tau Jembatan diatas Perairan, Record UI Aplikasi SEHATI Dir KPLP Layanan Izin Membongkar Bangunan dan atau Instalasi, Record UI Aplikasi SEHATI Dir KPLP Layanan Salvage PBA revisi, Sertifikasi Layanan Izin Membongkar Bangunan dan atau Instalasi, Sertifikasi Layanan Salvage PBA revisi, Membuat BPMN Layanan Izin Membongkar Bangunan dan atau Instalasi, Membuat BPMN Layanan Salvage PBA revisi
+
+04 Agustus => Testing Aplikasi SEHATI Jasa Kenavigasi Uang Rambu
+05 Agustus => Testing Aplikasi SEHATI Jasa Kapal, Testing Aplikasi SEHATI Jasa Kenavigasian Uang Rambu, Testing Aplikasi SEHATI Jasa Kenavigasian Vessel Traffic Service
+
+Minggu 6
+08 Agustus => Laporan Bulanan Kegiatan Support dan Pemeliharaan Sitem Bulan Juni Bab (Pemeliharaan Keamanann Sistem dan Jaringan)
+
+09 Agustus => Membuat UI Sertifikat_Standar_Perpanjangan_Kegiatan_Kerja_Keruk_v.5 Revisi
+
+10 Agustus => Membuat Dokumen Manual Pengguna CekRekening  Verifikator Laporan
+
+11 Agustus => Membuat Dokumen Manual Pengguna CekRekening Admin Partner
+
+12 Agustus => Revisi Dokumen Manual Pengguna CekRekening Admin Partner, Memuat Laporan Rekening di aplikasi CekRekening
+
+Minggu 7
+15 Agustus => Membuat Dokumen User Manual Layanan Jasa Navigasi Izin Membongkar Bangunan dan atau Instansi
+16 Agustus => Melanjutkan Membuat Dokumen User Manual Layanan Jasa Navigasi Izin Membongkar Bangunan dan atau Instansi
+17 Agustus => LIBUR HUT RI
+18 Agustus => Membuat Dokumen User Manual Layanan Jasa Navigasi Izin Perpanjangan Jangka Waktu Pemanfaatan Bangunan dan atau Instalasi
+19 Agustus => Testing Aplikasi SEHATI Sertifikat Standar Kegiatan Salvage dan Pekerjaan Bawah Air
+
+Minggu 8
+22 Agustus => Membuat User Manual Layanan Izin Membangun Kabel Saluran Udara atau SUTT atau Jembatan diatas Perairan, Membuat User Manual Layanan Jasa Navigasi Izin Membongkar Bangunan dan atau Instansi
+23 Agustus => Melanjutkan Membuat User Manual Layanan Jasa Navigasi Izin Membongkar Bangunan dan atau Instansi, Membuat Isu Layanan Izin Membongkar Bangunan dan atau Instalasi, Membuat Isu Layanan Izin Membangun Kabel Saluran Udara atau SUTT atau Jembatan diatas Perairan, Membuat User Manual Layanan Izin Membangun Kabel Saluran Udara atau SUTT atau Jembatan diatas Perairan, Membuat User Manual Layanan Jasa Navigasi Izin Perpanjangan Jangka Waktu Pemanfaatan Bangunan dan atau Instansi, Membuat Laporan Pengaduhan Rekening di Aplikasi CekRekening dengan Bank Mandiri
+24 Agustus => Membuat Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan Juli, Membuat Dokumen Manual Pengguna CekRekening Instansi
+25 Agustus => Belajar Mandiri
+26 Agustus => Belajar Mandiri
+
+Minggu 9
+29 Agustus => Belajar Mandiri Tentang PHPMVC (CRUD)
+30 Agustus => Testing Aplikasi Sehati bagian Jasa Kenavigasian Uang Rambu, Testing Aplikasi Sehati bagian Jasa Kenavigasian Vessel Traffic Service, Testing Aplikasi Sehati bagian Jasa Alat, Testing Aplikasi Sehati bagian Jasa Barang.
+31 Agustus => Membuat Dokumen Maintentance Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan Agustus, 
+1 September => Melanjutkan Membuat Dokumen Maintentance Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan Agustus, Input Data Pada Aplikasi CekRekening.id Pada Layanan Laporkan Rekening dengan Bank Mandiri.
+2 September => Revisi Dokumen User Manual Aplikasi Sehati Pada  Layanan Jasa Navigasi Izin Membongkar Bangunan dan atau Instansi, Revisi Dokumen User Manual Aplikasi Sehati Pada Layanan Izin Membangun Kabel Saluran Udara atau SUTT atau Jembatan diatas Perairan
+
+Minggu 10
+5 September => Testing Aplikasi Sehati Layanan Jasa Kepelabuhan Lainnya Generate Billing Code, Testing Aplikasi Sehati Layanan Jasa Kapal Generate Billing Code, Testing Aplikasi Sehati Layanan Jasa Kenavigasian Uang Rambu bagian Generate Billing Code, Testing Aplikasi Sehati Jasa Barang Generate Billing Code, Testing Aplikasi Sehati Layanan Pembuatan Kode Billing (Global) bagian Generate Billing Code, Melanjutkan Membuat Dokumen Maintentance Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan Agustus bagian Pemeliharaan Sistem Informasi Aplikasi
+6 September => membuat User manual Layanan Jasa Kepelabuhan Lainnya, User manual Layanan Jasa Konsesi, User manual Layanan Jasa Pemanduan dan Penundaan Kapal, User manual Layanan Jasa Perkapalan dan Kepelautan dan User manual Pembuatan Layanan Kode Billing (Global)
+7 September => Testing Aplikasi dan Membuat Dokumen User Manual Aplikasi Sehati Pada Layanan Izin Membangun Kabel Saluran Udara atau SUTT atau Jembatan diatas Perairan
+8 September => Testing Aplikasi dan Membuat Dokumen User Manual Aplikasi Sehati Pada Layanan Jasa Navigasi Izin Membongkar Bangunan dan atau Instansi, Membuat Laporan Approval Kadiv
+
+Minggu 11
+12 September => Testing Aplikasi Sehati Layanan Sertifikat Standar Perpanjangan Kerja Keruk dan Penyiapan Lahan Reklamasi, Testing Aplikasi Sehati Layanan Sertifikat Standar Perpanjangan Kegiatan Kerja Reklamasi, Testing Aplikasi Sehati Layanan Sertifikat Standar Perpanjangan Kegiatan Kerja Keruk, Testing Aplikasi Sehati Layanan Sertifkat Standar Kegiatan Salvage dan atau Pekerjaan Bawah Air, Testing Aplikasi Sehati Layanan Izin Pemanfaatan Garis Pantai Non TPK, Testing Aplikasi Sehati Layanan Izin Pemanfaatan Garis Pantai TPK, Membuat Isu Layanan Jasa Kepelabuhanan, 
+13 September => Membuat Dokumen Maintentance Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan September bagian Pemeliharaan Sistem Informasi Aplikasi
+14 September => Belajar Mandiri tentang php, merapikan drafat laporan PMI
+15 September => Membuat Dokumen User Manual Aplikasi CekRekening.id Pada Layanan Verifikator Partner
+16 September => Membuat User Manual Layanan Jasa Navigasi Izin Perpanjangan Jangka Waktu Pemanfaatan Bangunan dan atau Instansi, Membuat Isu Layanan Jasa Navigasi Izin Perpanjangan Jangka Waktu Pemanfaatan Bangunan dan atau Instansi, Membuat Isu Izin Perpanjangan Jangka Waktu Pemanfaatan Bangunan dan/atau Instalasi, Membuat Isu Izin Membangun Bangunan Instalasi di Perairan.
+
+Minggu 12 
+19 September => Membuat Dokumen User Manual Pengguna di aplikasi Pengaduan Nomor User Verifikator, Melanjutkan Isu Izin Membangun Bangunan Instalasi di Perairan
+20 September => Melanjutkan Membuat Dokumen Maintentance Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan September bagian Pemeliharaan Sistem Informasi Aplikasi
+
+21 September => Membuat Dokumen User Manual Pengguna Pengaduan Nomor Admin Report, Membuat Dokumen User Manual Pengguna Pengaduan Nomor User Media Social Whatsapp, Membuat Dokumen User Manual Pengguna Pengaduan Nomor User Operator Indosat, Membuat Dokumen User Manual Pengguna Pengaduan Nomor User Umum
+
+22 September => Testing Aplikasi Sehati Layanan Sertifikat standar perpanjangan kegiatan kerja keruk, Testing Aplikasi Sehati Layanan Izin Kegiatan Kerja Keruk dan Penyiapan Lahan (Reklamasi), Testing Aplikasi Sehati Layanan Izin Perpanjangan Jangka Waktu Pemanfaatan Bangunan dan/atau Instalasi, Membuat Dokumen User Manual Pengguna Pada Aplikasi Pengaduan Nomor Admin Read Only
+
+23 September => Melanjutkan Membuat Dokumen Maintentance Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan September bagian Pemeliharaan Sistem Informasi Aplikasi
+
+Minggu 13
+
+26 September => Melanjutkan Membuat Dokumen User Manual Pengguna di aplikasi Pengaduan Nomor User Verifikator, Melanjutkan Membuat Dokumen User Manual Pengguna Pada Aplikasi Pengaduan Nomor Admin Read Only, Testing Aplikasi Sehati bagian Alur Pembuatan Berita Acara Terminal Khusus, Testing Aplikasi Sehati bagian Alur Pembuatan Berita Acara Tuks, Testing Aplikasi Sehati bagian Layanan Pengaduan Aplikasi Sehati, Testing Aplikasi Sehati bagian Sertifikat Standar Perpanjangan Kerja Keruk dan Penyiapan Lahan Reklamasi, Testing Aplikasi Sehati bagian Sertifikat Standar Perpanjangan Kegiatan Kerja Reklamasi
+
+27 September => Melanjutkan Membuat Dokumen User Manual Pengguna di aplikasi Pengaduan Nomor User Verifikator, Testing Aplikasi Sehati bagian Layanan Jasa Kapal, Testing Aplikasi Sehati bagian Layanan Pengaduan Aplikasi Sehati
+ 
+28 September => Membuat data audit trail Aplikasi Idis Periode Bulan April s.d. Juni Tahun 2022
+
+29 September => Testing Aplikasi Sehati bagian Layanan Izin Kegiatan Kerja Keruk dan Penyiapan Lahan (Reklamasi), Testing Aplikasi Sehati bagian Layanan Sertifikat Standar Perpanjangan Kerja Keruk dan Penyiapan Lahan (reklamasi), Membuat Issue Layanan Aplikasi Sehati, Testing Aplikasi Sehati bagian Layanan Sertifikat standar perpanjangan kegiatan kerja keruk, Mengikuti Rapat Lanjutan Berita Acara dan Pengaduan Berjenjang via Zoom, Membuat Dokumen MoM Hubla 29 September 2022
+
+30 September => Melanjutkan testing Aplikasi Sehati bagian Layanan Sertifikat standar perpanjangan kegiatan kerja keruk, Testing Aplikasi Sehati bagian Layanan Persetujuan Kegiatan Kerja Reklamasi, Testing Aplikasi Sehati bagian Layanan Persetujuan Kegiatan Kerja Keruk, Testing Aplikasi Sehati bagian Layanan Izin Pembangunan Sementara TUKS Melayani untuk kepentingan Umum, Melanjutkan Membuat Issue Layanan Aplikasi Sehati
+
+Minggu 14
+
+03 September => Membuat Dokumen User Manual Pengguna di aplikasi Pengaduan Nomor User Public, Membuat Dokumen User Manual Pengguna di aplikasi Pengaduan Nomor User Verifikator
+
+04 September => Testing Aplikasi Sehati bagian Alur Pembuatan Berita Acara Terminal Khusus
+
+05 September => Testing Aplikasi Sehati bagian Izin Membangun Bangunan Instalasi di Perairan, Testing Aplikasi Sehati bagian Izin Membangun Kabel Saluran Udara/SUTT atau Jembatan diatas Perairan
+
+06 September => Melanjutkan testing Aplikasi Sehati bagian Izin Membangun Kabel Saluran Udara/SUTT atau Jembatan diatas Perairan, Testing Aplikasi Sehati bagian Sertifikat Standar Kegiatan Salvage dan Pekerjaan Bawah Air, Testing Aplikasi Sehati bagian Alur Pembuatan Berita Acara Tuks
+
+07 September => Membuat Dokumen Maintentance Laporan Bulanan Kegiatan Support dan Pemeliharaan Sistem Bulan September bagian Pemeliharaan Database Pertahanan

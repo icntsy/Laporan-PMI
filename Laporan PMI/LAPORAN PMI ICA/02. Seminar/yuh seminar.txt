@@ -1,0 +1,101 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+a. Latar Belakang
+Program Magang Industri (PMI) atau biasa disebut dengan PMI adalah sebuah implementasi dari proses belajar selama di kampus. Dengan adanya Program Magang Industri ini diharapkan mahasiswa dapat menambah pengetahuan, keterampilan dan pengalaman dalam mempersiapkan diri memasuki dunia kerja yang sesungguhnya. Pelaksanaan PMI merupakan kegiatan kurikuler bagi program studi D3 maupun sarjana terapan di Politeknik Negeri Indramayu (POLINDRA), PMI dilaksanakan sekitar 4 sampai dengan 6 bulan.
+
+b. Tujuan & Manfaat PMI
+Pelaksanaan PMI bertujuan untuk memberikan pengalaman industri kepada mahasiswa dalam menyelesaikan permasalahan di bidang kompentensinya masingmasing.Manfaat PMI yaitu Mengetahui spesifikasi kebutuhan pekerjaan di industri, Membekali diri dalam menghadapi dunia kerja setelah menyelesaikan studi di POLINDRA, Mengetahui secara langsung bagaimana mengimplementasikan teknologi terapan di industri.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gambaran Umum Aplikasi CekRekening.id
+
+CekRekening.id adalah Situs Resmi dari Kementerian Komunikasi dan Informatika Republik Indonesia yang difungsikan sebagai portal untuk melakukan pengumpulan database rekening bank diduga terindikasi tindak pidana. Pengumpulan dapat dilakukan oleh siapa saja yang ingin berpartisipasi dan membantu sesama pengguna transaksi elektronik demi menciptakan lingkungan e-commerce yang sehat, aman, dan nyaman.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Kegiatan Magang
+
+a. Pembuatan Alur Proses Bisnis
+
+Pembuatan Alur Proses Bisnis Layanan Izin Membongkar Bangunan Instalasi di Perairan pada Aplikasi Sehati.
+- Pemohon mengajukan permohonan Izin Membongkar Bangunan Instalasi di Perairan.
+- Petugas KASI menerima permohonan lalu menentukan evaluator untuk mengevaluasi permohonan.
+- Petugas evaluator menerima permohonan setelah diajukan dari petugas KASI, dan mengevaluasi permohonan yang diajukan.
+- Petugas KASI menerima permohonan yang telah di evaluasi dari petugas evaluator.
+- Kasubdit menerima permohonan yang telah di evaluasi permohonan dari petugas KASI.
+- Direktur KPLP menerima permohonan yang telah di evaluasi dari kasubdit.
+- Bagian Hukum menerima permohonan yang telah di evaluasi dari direktur.
+- Sesdit menerima permohonan yang telah di evaluasi dari bagian hukum.
+- Dirjen menerima permohonan yang telah di evaluasi dari sesdit dan melakukan tandatangan digital permohonan.
+- Pemohon menerima invoice dan membayarkan PNBP.
+- Pemohon menerima kuitansi dan dokumen Izin Membongkar Bangunan dan/atau Instalasi.
+
+b. Pembuatan UI Website Aplikasi SEHATI
+
+- Pembuatan UI Halaman Login
+  Halaman ini merupakan halaman login ketika memasuki website Sehati, jika kita sudah memiliki akun maka kita diarahkan untuk memasukan Username dan Password kemudian   klik tombol continue untuk masuk ke halaman selanjutnya.
+- Pembuatan UI Halaman Awal
+  pada halaman ini terdapat beberapa fitur diantaranya fitur Beranda, Pembayaran PNBP, Proses & Tugasku, Jasa Kepelabuhanan, Jasa Navigasi, Jasa Perkapalan &   Kepelautan, Jasa Transportasi Lainnya, Test Layanan, Layanan UAT Bogor, dan Blanko PNBP.
+- Pembuatan UI Form Permohonan
+  Halaman ini berfungsi untuk melakukan pengajuan permohonan pada Layanan Izin Perpanjangan Persetujuan Kegiatan Kerja Keruk.
+- Pembuatan UI Kasi (Penentuan Evaluator)
+  Petugas KASI menerima permohonan lalu menentukan evaluator untuk mengevaluasi permohonan.
+- Pembuatan UI Evaluator
+  Halaman ini merupakan halaman Staff Pengevaluasi yang bertugas melakukan pengecekan atau penambahan inputan.
+- Pembuatan UI Kasi (Evaluasi Permohonan)
+  Halaman ini merupakan halaman petugas Kasi bertugas untuk menentukan tanggal Pelaksanaan Audit.
+- Pembuatan UI Kasubdit
+  Halaman ini merupakan halaman Kasubdit yang bertugas melakukan pengecekan permohonan.
+- Pembuatan UI Dirjen
+  Halaman ini merupakan halaman Dirjen yang bertugas melakukan pengecekan permohonan dan Menginput tanda tangan digital
+
+c. Testing Aplikasi SEHATI
+
+Pengujian Layanan Izin Membangun Kabel Saluran Udara atau SUTT atau Jembatan diatas Perairan pada aplikasi Sehati yaitu menggunakan metode black box testing yaitu pengujian yang dilakukan pada tampilan apakah program dapat berjalan dengan baik sesuai yang diinginkan.
+
+Output yang dihasilkan :
+- Dokumen Izin
+  Terdapat 2 slide yaitu sertifikat standar izin membangun saluran udara/SUTT atau jembatan diatas perairan, dan verifikasi pemenuhan sertifikat standar izin membangun   saluran udara/SUTT atau jembatan diatas perairan disertai ttd digital. 
+- Invoice Izin
+  Terdapat kode billing untuk membayar PNBP (Penerimaann Negara Bukan Pajak)
+- Kwitansi
+  Merupakan bukti pembayaran yang telah dilakukan.
+
+d. Pembuatan Isu Aplikasi Sehati
+
+Pembuatan Isu Layanan Izin Membangun Saluran Udara atau SUTT atau Jembatan diatas Perairan pada Aplikasi Sehati. 
+isu yang didapatkan yaitu setelah melakukan testing pada layanan tersebut, isu layanan terdapat keterangan nomor, role, bugs, note by developer, status by 
+developer, status by tester, dan lampiran gambar by tester.
+
+e. Pembuatan Dokumen User Manual Aplikasi Sehati
+
+Halaman pemohon setelah melakukan login, kemudian pilih icon tambah maka akan mengarahkan ke halaman form layanan baru, kemudian user mencari layanan Izin Membangun Kabel Saluran Udara atau SUTT atau Jembatan diatas Perairan, Isi dan tentukan beberapa kelangkapan data seperti data permohonan, Setelah data isian terlengkapi klik button lanjutkan untuk melanjutkan ke proses selanjutnya.
+
+f. Pembuatan Dokumen MoM
+
+Pembuatan dokumen MoM Aplikasi Sehati. Minutes of Meeting (MoM) merupakan sebuah catatan atau dokumen penting.
+
+g. Pembuatan Dokumen UAT
+
+Pembuatan Dokumen user acceptance testing Layanan Izin Membangun Saluran Udara atau SUTT atau Jembatan diatas Perairan pada Aplikasi Sehati. Dokumen user acceptance testing (UAT) adalah proses pemeriksaan apakah solusi tersebut sudah sesuai dengan kebutuhan user. 
+
+h. Testing Aplikasi CekRekening.id
+
+Pengujian Pembuatan Laporan pada aplikasi CekRekening.id yaitu menggunakan metode black box testing yaitu pengujian yang dilakukan pada tampilan apakah program dapat berjalan dengan baik sesuai yang diinginkan.
+
+Output yang dihasilkan setelah melakukan pelbuatan laporan yaitu ada email masuk yang berisi pelaporan data rekening.
+
+i. Pembuatan Dokumen User Manual Aplikasi CekRekening.id
+
+Pembuatan Dokumen User Manual Role Partner pada Aplikasi CekRekening.id. Dokumen User Manual ini dibuat agar user dapat mengoperasikan Aplikasi CekRekening.id secara maksimal.
+
+Masuk ke website CekRekening.id lalu login masukan username dan password sebagai admin partner, ini merupakan halaman dashboard laporan, 
+- Pergerakan Laporan mencakup total laporan masuk berbanding dengan laporan diproses
+- Total Kerugian merupakan total dari kerugian yang telah terverifikasi oleh aplikasi cek rekening
+- Menampilkan Data Laporan Perkota
+- Menampilkan Summary Data Laporan
+- Menampilkan Top 10 Kategori
+- Menampilkan Agent Perfomance
+- Menampilkan List Top 10 Sumber Media
+- Export PDF
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

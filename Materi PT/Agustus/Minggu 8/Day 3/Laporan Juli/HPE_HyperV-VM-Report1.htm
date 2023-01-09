@@ -1,0 +1,3136 @@
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+<title>Hyper-V Dashboard</title>
+<STYLE TYPE="text/css">
+<!--
+td {
+font-family: Tahoma;
+font-size: 11px;
+border-top: 2px solid #999999;
+border-right: 2px solid #999999;
+border-bottom: 2px solid #999999;
+border-left: 2px solid #999999;
+}
+body {
+margin-left: 5px;
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+
+table {
+border: thin solid #000000;
+}
+-->
+</style>
+</head>
+<body>
+<table width='100%'>
+<tr bgcolor='#2F0B3A'>
+<td colspan='30' height='20' align='center'>
+<font face='tahoma' color='#FFFF00' size='4'><strong>Hyper-V - VM Dashboard -  2022/08/03</strong></font>
+</td>
+</tr>
+</table>
+<div align=Right><table>
+<tr>
+<td bgcolor=#BE81F7 align=center><font size='0.25'>Storage Health</font></td>
+<td bgcolor=#BE81F7 align=center><font size='0.25'>Host Memory Health</font></td>
+</tr>
+<tr>
+<td bgcolor=#FF0040 align=center><font size='0.25'>Volume Free Space - Less than 10 % or 50 GB</font></td>
+<td bgcolor=#FF0040 align=center><font size='0.25'>Available Memory - Less than 10 % or 10 GB</font></td>
+</tr>
+<tr>
+<td bgcolor=#FF6B6B align=center><font size='0.25'>Volume Free Space - Less than 20 % or 100 GB</font></td>
+<td bgcolor=#FF6B6B align=center><font size='0.25'>Available Memory - Less than 20 % or 20 GB</font></td>
+</tr>
+<tr>
+<td bgcolor=#FFF632 align=center><font size='0.25'>Volume Free Space - Less than 30 % or 200 GB</font></td>
+<td bgcolor=#FFF632 align=center><font size='0.25'>Available Memory - Less than 30 % or 30 GB</font></td>
+</tr>
+</table></div>
+<table width='100%'>
+<tr colspan='1' height='20' align='center' bgcolor='#000000'>
+<td width = '100%' color='#000000' size='2' align=center><font color='#FFFC00'><strong>Cluster - CLDRHVSV02</strong></font></td>
+</tr>
+</table>
+<table width='100%'>
+<tr height='20' bgcolor='#000000'>
+<td width = '64%' size='3' align=center><font color='White'><strong>DRHVSV05</strong></Font></td>
+<td width='8%' align=center><font color='White'>Total Memory</Font></td>
+<td width='4%' align=center><font color='White'>512 GB</Font></td>
+<td width='8%' align=center><font color='White'>Available Memory</Font></td>
+<td width='4%' align=center><font color='White'>99 GB</Font></td>
+<td width='8%' align=center><font color='White'>Available Memory (%)</Font></td>
+<td width='4%' align=center><strong><font size='4' color='#FF6B6B'>19 % </font></strong></td>
+</tr>
+</table>
+<table width='100%'>
+<tr bgcolor=#BE81F7>
+<td width='10%' align=center>VM</td>
+<td width='5%' align=center>Up-Time</td>
+<td width='5%' align=center>IC Version</td>
+<td width='4%' align=center>Clustered</td>
+<td width='4%' align=center>vProcessor</td>
+<td width='6%' align=center>vRAM-StartUp</td>
+<td width='6%' align=center>vRAM-Min</td>
+<td width='6%' align=center>vRAM-Max</td>
+<td width='6%' align=center>vRAM-Avg</td>
+<td width='6%' align=center>vDisk1-Storage</td>
+<td width='6%' align=center>vDisk1-Allocated</td>
+<td width='6%' align=center>vDisk1-Usage</td>
+<td width='6%' align=center>vDisk1-FP</td>
+<td width='6%' align=center>vDisk2-Storage</td>
+<td width='6%' align=center>vDisk2-Allocated</td>
+<td width='6%' align=center>vDisk2-Usage</td>
+<td width='6%' align=center>vDisk2-FP</td>
+<td width='6%' align=center>vNic</td>
+<td width='6%' align=center>FirstSnapShotDate</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRAPPRO01</td>
+<td width='5%' align=center>106.06:40:46.6880000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>65 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRCENTOSTMP</td>
+<td width='5%' align=center>106.06:40:22.9350000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>200 GB</td>
+<td width='6%'  align=center>25 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRGEOTMT02</td>
+<td width='5%' align=center>106.06:15:03.1380000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>109 GB</td>
+<td width='6%' align=center>5</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRGEOTMT03</td>
+<td width='5%' align=center>106.06:15:21.5020000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>122 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVAPMP01</td>
+<td width='5%' align=center>106.05:45:13.9460000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>39 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVAPRAIS01</td>
+<td width='5%' align=center>106.06:15:22.1140000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>28 GB</td>
+<td width='6%' align=center>13</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVBLCH01</td>
+<td width='5%' align=center>47.07:20:56.8410000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>67 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCERT01</td>
+<td width='5%' align=center>106.06:40:43.2650000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>200 GB</td>
+<td width='6%'  align=center>8 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDCDEV01</td>
+<td width='5%' align=center>106.06:41:30.2040000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>35 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDEV3D01</td>
+<td width='5%' align=center>106.06:42:36.7950000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>49 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDMS06</td>
+<td width='5%' align=center>27.06:26:38.4190000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>58 GB</td>
+<td width='6%' align=center>5</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX03a</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>49 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVHTEL01</td>
+<td width='5%' align=center>27.15:53:39.7700000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>32</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os1</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>139 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVINT02</td>
+<td width='5%' align=center>106.06:41:14.9930000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>83 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS07-up(Temp)</td>
+<td width='5%' align=center>106.06:43:18.0290000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>297 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS08</td>
+<td width='5%' align=center>53.03:09:15.0100000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>2</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>35 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS09</td>
+<td width='5%' align=center>106.06:42:30.5510000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>194 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLPPB01</td>
+<td width='5%' align=center>106.06:42:54.0010000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>57 GB</td>
+<td width='6%' align=center>1</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRBM01</td>
+<td width='5%' align=center>106.06:42:47.0670000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>193 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRBM03</td>
+<td width='5%' align=center>106.06:16:59.1580000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>298 GB</td>
+<td width='6%' align=center>13</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRGEO07</td>
+<td width='5%' align=center>106.05:47:02.6180000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>63 GB</td>
+<td width='6%' align=center>3</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSIUPIK</td>
+<td width='5%' align=center>106.06:43:20.7330000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>57 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSVNATR01</td>
+<td width='5%' align=center>53.04:24:06.7780000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>25 GB</td>
+<td width='6%' align=center>14</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%' align=center>200 GB</td>
+<td width='6%' align=center>0 GB</td>
+<td width='6%' align=center>3</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSYNCX01</td>
+<td width='5%' align=center>106.06:44:01.5790000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>200 GB</td>
+<td width='6%'  align=center>29 GB</td>
+<td width='6%' align=center>5</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU03</td>
+<td width='5%' align=center>106.06:43:55.6460000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>56 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU05</td>
+<td width='5%' align=center>63.20:47:26.3260000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>85 GB</td>
+<td width='6%' align=center></td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>5/4/2021</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU07</td>
+<td width='5%' align=center>63.20:47:50.5750000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>428 GB</td>
+<td width='6%' align=center></td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>5/4/2021</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU11</td>
+<td width='5%' align=center>106.06:42:35.9130000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>99 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVUBLX01</td>
+<td width='5%' align=center>53.05:09:27.6680000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVUBS16</td>
+<td width='5%' align=center>106.06:43:28.1080000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>250 GB</td>
+<td width='6%'  align=center>41 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%' align=center>50 GB</td>
+<td width='6%' align=center>1 GB</td>
+<td width='6%' align=center>0</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>Uila-vST-123456789-DRHVSV05-vSwitch221</td>
+<td width='5%' align=center>106.06:46:21.8430000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>1</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>2 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%'  align=center>2 GB</td>
+<td width='6%'  align=center>1 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>39 GB</td>
+<td width='6%' align=center>13</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>Uila-vST-123456789-DRHVSV05-vSwitch222</td>
+<td width='5%' align=center>106.06:46:23.2720000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>1</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>2 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%'  align=center>2 GB</td>
+<td width='6%'  align=center>1 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>48 GB</td>
+<td width='6%' align=center>16</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+</table>
+<table width='100%'>
+<tr height='20' bgcolor='#000000'>
+<td width = '64%' size='3' align=center><font color='White'><strong>DRHVSV06</strong></Font></td>
+<td width='8%' align=center><font color='White'>Total Memory</Font></td>
+<td width='4%' align=center><font color='White'>512 GB</Font></td>
+<td width='8%' align=center><font color='White'>Available Memory</Font></td>
+<td width='4%' align=center><font color='White'>179 GB</Font></td>
+<td width='8%' align=center><font color='White'>Available Memory (%)</Font></td>
+<td width='4%' align=center><strong><font size='4' color='#77FF5B'>35 % </font></strong></td>
+</tr>
+</table>
+<table width='100%'>
+<tr bgcolor=#BE81F7>
+<td width='10%' align=center>VM</td>
+<td width='5%' align=center>Up-Time</td>
+<td width='5%' align=center>IC Version</td>
+<td width='4%' align=center>Clustered</td>
+<td width='4%' align=center>vProcessor</td>
+<td width='6%' align=center>vRAM-StartUp</td>
+<td width='6%' align=center>vRAM-Min</td>
+<td width='6%' align=center>vRAM-Max</td>
+<td width='6%' align=center>vRAM-Avg</td>
+<td width='6%' align=center>vDisk1-Storage</td>
+<td width='6%' align=center>vDisk1-Allocated</td>
+<td width='6%' align=center>vDisk1-Usage</td>
+<td width='6%' align=center>vDisk1-FP</td>
+<td width='6%' align=center>vDisk2-Storage</td>
+<td width='6%' align=center>vDisk2-Allocated</td>
+<td width='6%' align=center>vDisk2-Usage</td>
+<td width='6%' align=center>vDisk2-FP</td>
+<td width='6%' align=center>vNic</td>
+<td width='6%' align=center>FirstSnapShotDate</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRCOBA01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>71 GB</td>
+<td width='6%' align=center>2</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRHVSVAVault01</td>
+<td width='5%' align=center>414.01:01:45.9990000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>1</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%' align=center>2</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRITSMGCP</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>443 GB</td>
+<td width='6%' align=center>0</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVBIND01</td>
+<td width='5%' align=center>26.12:59:54.8390000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>51 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCBT01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>24</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>24 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>252 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCBT04</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>23 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCBT04a</td>
+<td width='5%' align=center>47.03:21:51.5960000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>24</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>33 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCKANAP01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>29 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDCAPM01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>13 GB</td>
+<td width='6%' align=center>12</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDCAPM02</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>106 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX02</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>24</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX02a</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>24</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>53 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX03</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>67 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX05</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>58 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVKTP02</td>
+<td width='5%' align=center>134.21:27:38.8960000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>57 GB</td>
+<td width='6%' align=center>1</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS05T01</td>
+<td width='5%' align=center>43.00:26:28.2050000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>90 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS05T03</td>
+<td width='5%' align=center>42.00:32:16.4860000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>48 GB</td>
+<td width='6%' align=center>2 GB</td>
+<td width='6%' align=center>48 GB</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>46 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS06-up</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>87 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVOJS01</td>
+<td width='5%' align=center>134.19:23:59.2910000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>71 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVPGEOFFICE</td>
+<td width='5%' align=center>47.07:40:51.8640000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>47 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVPMU01</td>
+<td width='5%' align=center>414.01:02:11.4020000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>1024 GB</td>
+<td width='6%'  align=center>85 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSIWAS01</td>
+<td width='5%' align=center>203.18:18:45.1040000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>57 GB</td>
+<td width='6%' align=center>3</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSKPK01</td>
+<td width='5%' align=center>161.00:21:50.9990000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>55 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSKPK02</td>
+<td width='5%' align=center>173.00:16:30.5220000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>60 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSKPLX02</td>
+<td width='5%' align=center>414.01:02:02.8540000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>200 GB</td>
+<td width='6%'  align=center>26 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVWEBATR01</td>
+<td width='5%' align=center>9.16:13:31.3600000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>38 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVWEBATR02</td>
+<td width='5%' align=center>223.22:52:42.3120000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>48 GB</td>
+<td width='6%' align=center>5</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>Uila-vST-123456789-DRHVSV06-vSwitch221</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>1</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>2 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%'  align=center>2 GB</td>
+<td width='6%'  align=center>1 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>24 GB</td>
+<td width='6%' align=center>6</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>Uila-vST-123456789-DRHVSV06-vSwitch222</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>1</td>
+<td width='5%' BGCOLOR=#77FF5B align=center>2 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%'  align=center>2 GB</td>
+<td width='6%'  align=center>1 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>14</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+</table>
+<table width='100%'>
+<tr height='20' bgcolor='#000000'>
+<td width = '64%' size='3' align=center><font color='White'><strong>DRHVSV07</strong></Font></td>
+<td width='8%' align=center><font color='White'>Total Memory</Font></td>
+<td width='4%' align=center><font color='White'>512 GB</Font></td>
+<td width='8%' align=center><font color='White'>Available Memory</Font></td>
+<td width='4%' align=center><font color='White'>94 GB</Font></td>
+<td width='8%' align=center><font color='White'>Available Memory (%)</Font></td>
+<td width='4%' align=center><strong><font size='4' color='#FF6B6B'>18 % </font></strong></td>
+</tr>
+</table>
+<table width='100%'>
+<tr bgcolor=#BE81F7>
+<td width='10%' align=center>VM</td>
+<td width='5%' align=center>Up-Time</td>
+<td width='5%' align=center>IC Version</td>
+<td width='4%' align=center>Clustered</td>
+<td width='4%' align=center>vProcessor</td>
+<td width='6%' align=center>vRAM-StartUp</td>
+<td width='6%' align=center>vRAM-Min</td>
+<td width='6%' align=center>vRAM-Max</td>
+<td width='6%' align=center>vRAM-Avg</td>
+<td width='6%' align=center>vDisk1-Storage</td>
+<td width='6%' align=center>vDisk1-Allocated</td>
+<td width='6%' align=center>vDisk1-Usage</td>
+<td width='6%' align=center>vDisk1-FP</td>
+<td width='6%' align=center>vDisk2-Storage</td>
+<td width='6%' align=center>vDisk2-Allocated</td>
+<td width='6%' align=center>vDisk2-Usage</td>
+<td width='6%' align=center>vDisk2-FP</td>
+<td width='6%' align=center>vNic</td>
+<td width='6%' align=center>FirstSnapShotDate</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DREMSC02</td>
+<td width='5%' align=center>252.00:31:01.7780000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%' BGCOLOR='#0044FF' align=center><font color='White'><strong>64 GB</strong></font></td>
+<td width='6%' BGCOLOR='#0044FF' align=center><font color='White'><strong>36 GB</strong></font></td>
+<td width='6%' align=center>100</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCBT02</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>33 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCBT02a</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>24</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>37 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDNS02</td>
+<td width='5%' align=center>127.00:07:52.6880000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>33 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>24</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>69 GB</td>
+<td width='6%' align=center>4</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX04</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>55 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVINC01</td>
+<td width='5%' align=center>4.21:53:21.5650000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>109 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVINSP01</td>
+<td width='5%' align=center>204.08:40:12.5150000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>29 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVITSMATR01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>47 GB</td>
+<td width='6%' align=center>5</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVKKPL04</td>
+<td width='5%' align=center>210.01:18:00.8140000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>20 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os1</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>262 GB</td>
+<td width='6%' align=center>5</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVKMS01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>20 GB</td>
+<td width='6%' align=center>13</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLKPP01</td>
+<td width='5%' align=center>106.06:57:00.3310000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>20 GB</td>
+<td width='6%' align=center>5</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS03DB</td>
+<td width='5%' align=center>47.03:20:28.0840000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>169 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS04-20</td>
+<td width='5%' align=center>106.06:58:25.7070000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>64 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLXPHP01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>200 GB</td>
+<td width='6%'  align=center>8 GB</td>
+<td width='6%' align=center>16</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVOJS02</td>
+<td width='5%' align=center>133.20:22:32.8890000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>57 GB</td>
+<td width='6%' align=center>2</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVOPMAN01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>27 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVPMU02</td>
+<td width='5%' align=center>253.14:41:11.9750000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>32 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVPPID01</td>
+<td width='5%' align=center>253.14:11:15.1390000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>56 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRCONF01</td>
+<td width='5%' align=center>253.13:11:28.1980000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>200 GB</td>
+<td width='6%'  align=center>12 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRGEO03</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>59 GB</td>
+<td width='6%' align=center>3</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRGEO06</td>
+<td width='5%' align=center>154.16:16:55.8940000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>63 GB</td>
+<td width='6%' align=center>3</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRGEO08a</td>
+<td width='5%' align=center>117.00:33:22.6970000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>65 GB</td>
+<td width='6%' align=center>3</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSIUPIK01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>150 GB</td>
+<td width='6%'  align=center>9 GB</td>
+<td width='6%' align=center>12</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSYNCX02</td>
+<td width='5%' align=center>253.13:41:50.8360000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>200 GB</td>
+<td width='6%'  align=center>144 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU02</td>
+<td width='5%' align=center>46.18:29:47.2020000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>280 GB</td>
+<td width='6%' align=center>4</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU04</td>
+<td width='5%' align=center>29.22:21:20.0650000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>32</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>64.01 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>36 GB</td>
+<td width='6%' align=center></td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%' align=center>1000 GB</td>
+<td width='6%' align=center>92 GB</td>
+<td width='6%' align=center></td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>6/15/2021</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU06</td>
+<td width='5%' align=center>63.20:51:31.4260000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32.02 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>302 GB</td>
+<td width='6%' align=center></td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>5/4/2021</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU08</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>39 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU09</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>20 GB</td>
+<td width='6%' align=center>12</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTARU10</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>20 GB</td>
+<td width='6%' align=center>12</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVTR01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>9 GB</td>
+<td width='6%' align=center>12</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVVIC01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>8 GB</td>
+<td width='6%'  align=center>7 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVWEBAPI01</td>
+<td width='5%' align=center>120.14:57:57.7080000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>70 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>Uila-vST-123456789-DRHVSV07-vSwitch221</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>1</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>2 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%'  align=center>2 GB</td>
+<td width='6%'  align=center>1 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>16</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>Uila-vST-123456789-DRHVSV07-vSwitch222</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>1</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>2 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%'  align=center>2 GB</td>
+<td width='6%'  align=center>1 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>47 GB</td>
+<td width='6%' align=center>16</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+</table>
+<table width='100%'>
+<tr height='20' bgcolor='#000000'>
+<td width = '64%' size='3' align=center><font color='White'><strong>DRHVSV08</strong></Font></td>
+<td width='8%' align=center><font color='White'>Total Memory</Font></td>
+<td width='4%' align=center><font color='White'>512 GB</Font></td>
+<td width='8%' align=center><font color='White'>Available Memory</Font></td>
+<td width='4%' align=center><font color='White'>99 GB</Font></td>
+<td width='8%' align=center><font color='White'>Available Memory (%)</Font></td>
+<td width='4%' align=center><strong><font size='4' color='#FF6B6B'>19 % </font></strong></td>
+</tr>
+</table>
+<table width='100%'>
+<tr bgcolor=#BE81F7>
+<td width='10%' align=center>VM</td>
+<td width='5%' align=center>Up-Time</td>
+<td width='5%' align=center>IC Version</td>
+<td width='4%' align=center>Clustered</td>
+<td width='4%' align=center>vProcessor</td>
+<td width='6%' align=center>vRAM-StartUp</td>
+<td width='6%' align=center>vRAM-Min</td>
+<td width='6%' align=center>vRAM-Max</td>
+<td width='6%' align=center>vRAM-Avg</td>
+<td width='6%' align=center>vDisk1-Storage</td>
+<td width='6%' align=center>vDisk1-Allocated</td>
+<td width='6%' align=center>vDisk1-Usage</td>
+<td width='6%' align=center>vDisk1-FP</td>
+<td width='6%' align=center>vDisk2-Storage</td>
+<td width='6%' align=center>vDisk2-Allocated</td>
+<td width='6%' align=center>vDisk2-Usage</td>
+<td width='6%' align=center>vDisk2-FP</td>
+<td width='6%' align=center>vNic</td>
+<td width='6%' align=center>FirstSnapShotDate</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRADDS05</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>OS1</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>24 GB</td>
+<td width='6%' align=center>14</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRAPTESTUP</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>23 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVAPPLOG</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>20 GB</td>
+<td width='6%' align=center>13</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVBLCH02</td>
+<td width='5%' align=center>355.20:33:40.2430000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>135 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCASEA</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>43 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCBT03</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>27 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCBT03a</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>24</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>31 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCBT08a</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>24</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>32 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVCKANAP02</td>
+<td width='5%' align=center>131.21:51:12.2970000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>53 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDBPG01</td>
+<td width='5%' align=center>210.05:02:44.7700000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os1</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>29 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDMS07</td>
+<td width='5%' align=center>48.17:03:29.8730000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>32</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>24 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>104 GB</td>
+<td width='6%' align=center>6</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDYNA01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>14 GB</td>
+<td width='6%' align=center>4</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVDYNA02</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>2</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>14 GB</td>
+<td width='6%' align=center>4</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX04a</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>46 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEOFLX05a</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>50 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVEPLAN01</td>
+<td width='5%' align=center>181.10:36:55.0430000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>30 GB</td>
+<td width='6%' align=center>12</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVESETINS01</td>
+<td width='5%' align=center>1.20:20:18.9970000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>375 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVGIT01</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>92 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVHTEL03</td>
+<td width='5%' align=center>27.12:01:22.7880000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os1</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>92 GB</td>
+<td width='6%' align=center>8</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVINTR02</td>
+<td width='5%' align=center>414.00:36:05.5930000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>179 GB</td>
+<td width='6%' align=center>5</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVKKPL17</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>24 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>166 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVKKPL18</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>24 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>166 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS02A</td>
+<td width='5%' align=center>201.00:44:06.7510000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>62 GB</td>
+<td width='6%' align=center>9</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS05T02</td>
+<td width='5%' align=center>53.05:21:38.1000000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>48 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>254 GB</td>
+<td width='6%' align=center>13</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVLMS07</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>270 GB</td>
+<td width='6%' align=center>10</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVMT01a</td>
+<td width='5%' align=center>165.10:19:20.0900000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>100 GB</td>
+<td width='6%'  align=center>24 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVMYTEST</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>4</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>8 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>4 GB</td>
+<td width='6%' align=center>14</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVPENBIT01</td>
+<td width='5%' align=center>33.21:41:29.1140000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>16</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>32 GB</td>
+<td width='6%' align=center>4 GB</td>
+<td width='6%' align=center>32 GB</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>226 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVREDIR</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>2</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>4 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>9 GB</td>
+<td width='6%' align=center>13</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRGEO04</td>
+<td width='5%' align=center>106.07:02:14.3400000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>63 GB</td>
+<td width='6%' align=center>3</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRGEO05</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>63 GB</td>
+<td width='6%' align=center>3</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRGEO05a</td>
+<td width='5%' align=center>12.18:45:16.6830000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>63 GB</td>
+<td width='6%' align=center>3</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVRGEO08</td>
+<td width='5%' align=center>223.18:54:11.8490000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>300 GB</td>
+<td width='6%'  align=center>64 GB</td>
+<td width='6%' align=center>2</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVSKPLX01</td>
+<td width='5%' align=center>28.02:06:17.9920000</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>8</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>Os</td>
+<td width='6%'  align=center>500 GB</td>
+<td width='6%'  align=center>163 GB</td>
+<td width='6%' align=center>11</td>
+<td width='5%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>DRSVUMAS</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>True</td>
+<td width='4%' align=center>2</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>16 GB</td>
+<td width='6%' align=center>8 GB</td>
+<td width='6%' align=center>16 GB</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%'  align=center>22 GB</td>
+<td width='6%'  align=center>9 GB</td>
+<td width='6%' align=center>4</td>
+<td width='5%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='6%' align=center>300 GB</td>
+<td width='6%' align=center>122 GB</td>
+<td width='6%' align=center>7</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' align=center>Uila-vST-123456789-DRHVSV08-vSwitch222</td>
+<td width='5%' align=center>00:00:00</td>
+<td width='5%' align=center>0.0</td>
+<td width='4%' align=center>False</td>
+<td width='4%' align=center>1</td>
+<td width='5%' BGCOLOR=#FF6B6B align=center>2 GB</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>DM Disabled</td>
+<td width='6%' align=center>NA</td>
+<td width='6%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%'  align=center>2 GB</td>
+<td width='6%'  align=center>1 GB</td>
+<td width='6%' align=center>7</td>
+<td width='5%' BGCOLOR='#77FF5B' align=center>C:</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>49 GB</td>
+<td width='6%' align=center>17</td>
+<td width='6%' align=center>Synthetic</td>
+<td width='6%' align=center>NA</td>
+</tr>
+</table>
+<table width='100%'>
+<tr colspan='1' height='20' align='center' bgcolor='#282828'>
+<td width = '100%' color='#0101DF' size='2' align=center><font color='White'><strong>Host Report - CLDRHVSV02</strong></font></td>
+</tr>
+</table>
+<table width='100%'>
+<tr bgcolor=#BE81F7>
+<td width='10%' align=center>Server Name</td>
+<td width='10%' align=center>Total VMs</td>
+<td width='10%' align=center>Total Physical Memory</td>
+<td width='10%' align=center>Available Physical Memory</td>
+<td width='10%' align=center>Available Physical Memory (%)</td>
+<td width='10%' align=center>Total VM Startup Memory</td>
+<td width='10%' align=center>Toatl VM Max Memory</td>
+<td width='10%' align=center>Physical Processors</td>
+<td width='10%' align=center>Cores</td>
+<td width='10%' align=center>Logical Processors</td>
+<td width='10%' align=center>Total vProcs</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>DRHVSV05</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>32</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>512 GB</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>99 GB</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>19 %</td>
+<td width='10%' align=center>372 GB</td>
+<td width='10%' align=center>372 GB</td>
+<td width='10%' align=center>4</td>
+<td width='10%' align=center>72</td>
+<td width='10%' align=center>144</td>
+<td width='10%' align=center>264</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' BGCOLOR='#77FF5B' align=center>DRHVSV06</td>
+<td width='10%' BGCOLOR='#77FF5B' align=center>29</td>
+<td width='10%' BGCOLOR='#77FF5B' align=center>512 GB</td>
+<td width='10%' BGCOLOR='#77FF5B' align=center>179 GB</td>
+<td width='10%' BGCOLOR='#77FF5B' align=center>35 %</td>
+<td width='10%' align=center>556 GB</td>
+<td width='10%' align=center>556 GB</td>
+<td width='10%' align=center>4</td>
+<td width='10%' align=center>72</td>
+<td width='10%' align=center>144</td>
+<td width='10%' align=center>307</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>DRHVSV07</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>36</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>512 GB</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>94 GB</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>18 %</td>
+<td width='10%' align=center>552.03 GB</td>
+<td width='10%' align=center>552.03 GB</td>
+<td width='10%' align=center>4</td>
+<td width='10%' align=center>72</td>
+<td width='10%' align=center>144</td>
+<td width='10%' align=center>346</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>DRHVSV08</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>36</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>512 GB</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>99 GB</td>
+<td width='10%' BGCOLOR='#FF6B6B' align=center>19 %</td>
+<td width='10%' align=center>654 GB</td>
+<td width='10%' align=center>654 GB</td>
+<td width='10%' align=center>4</td>
+<td width='10%' align=center>72</td>
+<td width='10%' align=center>144</td>
+<td width='10%' align=center>371</td>
+</tr>
+<tr bgcolor=#FA58D0>
+<td width='10%' BGCOLOR='' align=center>TOTAL</td>
+<td width='10%' BGCOLOR='' align=center>133</td>
+<td width='10%' BGCOLOR='' align=center>2048 GB</td>
+<td width='10%' BGCOLOR='' align=center>471 GB</td>
+<td width='10%' BGCOLOR='' align=center>23 %</td>
+<td width='10%' align=center>2134.03 GB</td>
+<td width='10%' align=center>2134.03 GB</td>
+<td width='10%' align=center>16</td>
+<td width='10%' align=center>288</td>
+<td width='10%' align=center>576</td>
+<td width='10%' align=center>1288</td>
+</tr>
+</table>
+<table width='100%'>
+<tr colspan='1' height='20' align='center' bgcolor='#282828'>
+<td width = '100%' color='#0101DF' size='2' align=center><font color='White'><strong>Storage Report - CLDRHVSV02</strong></font></td>
+</tr>
+</table>
+<table width='100%'>
+<tr bgcolor=#BE81F7>
+<td width='8%' align=center>Volume Name</td>
+<td width='8%' align=center>Volume Type</td>
+<td width='8%' align=center>RAID Level</td>
+<td width='8%' align=center>Storage</td>
+<td width='8%' align=center>StorageConnection</td>
+<td width='8%' align=center>Total Capacity</td>
+<td width='8%' align=center>Current Free Space</td>
+<td width='8%' align=center>Free Space (%)</td>
+<td width='8%' align=center>VHDX-Size-Allocated</td>
+<td width='8%' align=center>VHDX-Size-Actual</td>
+<td width='10%' align=center>Over-Provisioned (GB)</td>
+<td width='10%' align=center>Over-Provisioned(%)</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='8%' BGCOLOR='#FF0040' align=center>OS</td>
+<td width='8%' BGCOLOR='#FF0040' align=center></td>
+<td width='8%' BGCOLOR='#FF0040' align=center></td>
+<td width='8%' BGCOLOR='#FF0040' align=center></td>
+<td width='8%' BGCOLOR='#FF0040' align=center></td>
+<td width='8%' BGCOLOR='#FF0040' align=center>16 TB</td>
+<td width='8%' BGCOLOR='#FF0040' align=center>523 GB</td>
+<td width='8%' BGCOLOR='#FF0040' align=center>3 %</td>
+<td width='8%' align=center>13218 GB</td>
+<td width='8%' align=center>2903 GB</td>
+<td width='10%' align=center>Not Over Provisioned</td>
+<td width='10%' align=center>NA</td>
+</tr>
+<tr bgcolor=#77FF5B>
+<td width='8%' BGCOLOR='#77FF5B' align=center>OS1</td>
+<td width='8%' BGCOLOR='#77FF5B' align=center></td>
+<td width='8%' BGCOLOR='#77FF5B' align=center></td>
+<td width='8%' BGCOLOR='#77FF5B' align=center></td>
+<td width='8%' BGCOLOR='#77FF5B' align=center></td>
+<td width='8%' BGCOLOR='#77FF5B' align=center>16 TB</td>
+<td width='8%' BGCOLOR='#77FF5B' align=center>15247 GB</td>
+<td width='8%' BGCOLOR='#77FF5B' align=center>93 %</td>
+<td width='8%' align=center>30307 GB</td>
+<td width='8%' align=center>8440 GB</td>
+<td width='10%' align=center>13923</td>
+<td width='10%' align=center>185</td>
+</tr>
+<tr bgcolor=#FA58D0>
+<td width='8%' BGCOLOR='' align=center>TOTAL</td>
+<td width='8%' BGCOLOR='' align=center>NA</td>
+<td width='8%' BGCOLOR='' align=center>NA</td>
+<td width='8%' BGCOLOR='' align=center>NA</td>
+<td width='8%' BGCOLOR='' align=center>NA</td>
+<td width='8%' BGCOLOR='' align=center>32 TB</td>
+<td width='8%' BGCOLOR='' align=center>15770 GB</td>
+<td width='8%' BGCOLOR='' align=center>48 %</td>
+<td width='8%' align=center>43525 GB</td>
+<td width='8%' align=center>11342 GB</td>
+<td width='10%' align=center>NA</td>
+<td width='10%' align=center>NA</td>
+</tr>
+</table>
+</body>
+</html>

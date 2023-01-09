@@ -1,0 +1,17 @@
+Rabu, 22 Juni 2022
+
+Standar Pemodelan
+1. BPMN (Business Process Modeling Notation)
+BPMN yaitu notasi grafis yang menggambarkan logika dari langkah-langkah dalam proses bisnis, bertujuan untuk mengkoordinasikan urutan proses dan pesan yang mengalir antara peserta dalam kegiatan yang berbeda atau standar baru untuk memodelkan proses bisnis dan proses-proses web service.
+
+BPMN penting karena :
+a. standar proses pemodelan diterima secara internasional
+b. metodologi pemodelan proses.
+c. proses model dalam cara bersatu dan standar sehingga setiap orang dalam organisasi dapat saling memahami.
+
+- BPMN salah satu aspek kunci dalam BPM.
+- BPMN terdiri dari 1 diagram yaitu BPD (Business Process Diagram).
+Tujuan BPD
+- dirancang agar mudah digunakan dan dipahami oleh pengguna non-teknis seperti manajemen, dapat digunakan dengan cepat untuk memodelkan proses bisnis.
+- untuk memodelkan proses bisnis yang sangat kompleks.
+
