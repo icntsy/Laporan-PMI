@@ -1,4 +1,0 @@
-web untuk programer
-stack overflow
-dokumentasi php
-http://php.net/manual
